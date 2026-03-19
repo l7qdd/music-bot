@@ -67,3 +67,4 @@ distube
     channel.send("❌ صار خطأ");
   });
 
+client.login(process.env.TOKEN);
