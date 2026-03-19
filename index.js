@@ -1,3 +1,5 @@
+process.on('uncaughtException', console.error);
+process.on('unhandledRejection', console.error);
 const { Client, GatewayIntentBits } = require("discord.js");
 const { DisTube } = require("distube");
 const { SoundCloudPlugin } = require("@distube/soundcloud");
