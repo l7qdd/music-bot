@@ -1,5 +1,7 @@
 process.on('uncaughtException', console.error);
 process.on('unhandledRejection', console.error);
+const ffmpeg = require("ffmpeg-static");
+process.env.FFMPEG_PATH = ffmpeg;
 const { Client, GatewayIntentBits } = require("discord.js");
 const { DisTube } = require("distube");
 const { SoundCloudPlugin } = require("@distube/soundcloud");
