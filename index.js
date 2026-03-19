@@ -70,4 +70,4 @@ distube.on("error", (channel, error) => {
   channel.send("❌ صار خطأ");
 });
 
-client.login(process.env.TOKEN);
+console.log("TOKEN:", process.env.TOKEN);
