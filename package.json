@@ -1,4 +1,14 @@
 {
+  "name": "music-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prepare": "echo skip"
+  },
   "dependencies": {
     "discord.js": "^14.14.1",
     "distube": "^4.2.2",
